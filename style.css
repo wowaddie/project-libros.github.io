@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Sans:wght@100&family=Quicksand:wght@300&display=swap');
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h3 {
+    font-size: 36px;
+    font-family:"Josefin Sans";
+    color: #222;
+    text-align:center;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h5 {
+    font-family:"Josefin Sans";
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Josefin Sans"
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+    background-color:#f4f4f4;
+}
+
+bg-color
+
+/* Header Start */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+ 
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: sticky;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16 px;
+    font-weight: 500;
+    color: #1a1a1a;
+    font-family: "Quicksand";
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #0999b0;  
+} 
+
+#navbar li a.active::after,
+    #navbar li a:hover::after {
+    content: "";
+    width:30%;
+    height: 2px;
+    background: #0999b0;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+ }
+
+ .logo {
+    position: absolute;
+    top:0; 
+	left:0;
+    padding: 9px;
+ }
+
+#hero .carousel-inner {
+	color: #fff;
+}
+
+#featured-blogs a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Quicksand";
+    font-size:larger;
+}
+
+#featured-blogs a:hover 
+{ color: #cdcdcd; text-decoration-line: underline; text-decoration-thickness: 1px;
+text-underline-offset: 0.50em;
+}
+
+
